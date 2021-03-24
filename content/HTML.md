@@ -89,7 +89,9 @@ DOCTYPE是document type (文档类型) 的缩写。`<!DOCTYPE>` 声明位于文�
 
 用 margin:0 auto 设置水平居中：使用 margin:0 auto 在 Standards 模式下可以使元素水平居中，但在 Quirks 模式下却会失效。
 
-[参与互动](https://github.com/yisainan/web-interview/issues/9)(https://github.com/yisainan/web-interview/issues/11)(https://github.com/yisainan/web-interview/issues/18)
+[参与互动](https://github.com/yisainan/web-interview/issues/9)
+[参与互动](https://github.com/yisainan/web-interview/issues/11)
+[参与互动](https://github.com/yisainan/web-interview/issues/18)
 
 </details>
 
@@ -167,7 +169,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 </details>
 
 
-<b><details><summary>6.iframe 框架有那些优缺点？</summary></b>
+<b><details><summary>6. iframe 框架有那些优缺点？</summary></b>
 
 答案：
 
@@ -358,24 +360,6 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 
 </details>
 
-
-<b><details><summary>12.列举 IE 与其他浏览器不一样的特性？</summary></b>
-
-答案：
-
-a. IE 的排版引擎是 Trident （又称为 MSHTML）
-
-b. Trident 内核曾经几乎与 W3C 标准脱节（2005 年）
-
-c. Trident 内核的大量 Bug 等安全性问题没有得到及时解决
-
-d. JS 方面，有很多独立的方法，例如绑定事件的 attachEvent、创建事件的 createEventObject 等
-
-e. CSS 方面，也有自己独有的处理方式，例如设置透明，低版本 IE 中使用滤镜的方式
-
-[参与互动](https://github.com/yisainan/web-interview/issues/13)
-
-</details>
 
 
 <b><details><summary>13.为什么用多个域名存储网站资源更有效？</summary></b>
