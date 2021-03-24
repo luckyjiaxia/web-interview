@@ -16,12 +16,24 @@
 
 </details>
 
-<b><details><summary>4.HTML 与 XHTML有什么区别？</summary></b>
+<b><details><summary>2.HTML 与 XHTML有什么区别？</summary></b>
 
 答案：
 
 ```
+一、基础语言不同
 
+1、XHTML是基于可扩展标记语言（XML）。
+
+2、HTML是基于标准通用标记语言（SGML）。
+
+二、语法严格程度不同
+
+1、XHTML语法比较严格，存在DTD定义规则。
+
+2、HTML语法要求比较松散，这样对网页编写者来说，比较方便。
+
+三、书写习惯的差别
 
 1、XHTML 元素必须被正确地嵌套
 
