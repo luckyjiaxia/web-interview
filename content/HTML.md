@@ -95,6 +95,7 @@ DOCTYPE是document type (文档类型) 的缩写。`<!DOCTYPE>` 声明位于文�
 
 </details>
 
+
 <b><details><summary>4.HTML5 为什么只需要写 `<!DOCTYPE HTML>`？</summary></b>
 
 答案：HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SGML。而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为。其中，SGML 是标准通用标记语言,简单的说，就是比 HTML,XML 更老的标准，这两者都是由 SGML 发展而来的。BUT，HTML5 不是的。
@@ -104,7 +105,7 @@ DOCTYPE是document type (文档类型) 的缩写。`<!DOCTYPE>` 声明位于文�
 </details>
 
 
-<b><details><summary>4.对于 WEB 标准以及 W3C 的理解与认识</summary></b>
+<b><details><summary>5.对于 WEB 标准以及 W3C 的理解与认识</summary></b>
 
 答案：
 
@@ -138,7 +139,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 </details>
 
 
-<b><details><summary>5.前端页面有哪三层构成，分别是什么？作用是什么？</summary></b>
+<b><details><summary>6.前端页面有哪三层构成，分别是什么？作用是什么？</summary></b>
 
 答案：分成：结构层、表示层、行为层。
 
@@ -159,7 +160,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 </details>
 
 
-<b><details><summary>14. 网页验证码是干嘛的，是为了解决什么安全问题？</summary></b>
+<b><details><summary>7. 网页验证码是干嘛的，是为了解决什么安全问题？</summary></b>
 
 答案：
 
@@ -171,7 +172,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 </details>
 
 
-<b><details><summary>6. iframe 框架有那些优缺点？</summary></b>
+<b><details><summary>8. iframe 框架有那些优缺点？</summary></b>
 
 答案：
 
@@ -194,7 +195,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 </details>
 
 
-<b><details><summary>7. 简述一下 src 与 href 的区别。</summary></b>
+<b><details><summary>9. 简述一下 src 与 href 的区别。</summary></b>
 
 答案：src 用于引用资源，替换当前元素；href 用于在当前文档和引用资源之间确立联系。
 
@@ -214,7 +215,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 </details>
 
 
-<b><details><summary>8.title 与 h1 的区别、b 与 strong 的区别、i 与 em 的区别？</summary></b>
+<b><details><summary>10.title 与 h1 的区别、b 与 strong 的区别、i 与 em 的区别？</summary></b>
 
 答案：
 
@@ -255,7 +256,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>26.html5 有哪些新特性、移除了那些元素？</summary></b>
+<b><details><summary>11.html5 有哪些新特性、移除了那些元素？</summary></b>
 
 答案：
 
@@ -305,7 +306,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>19. 你能描述一下渐进增强和优雅降级之间的不同吗?</summary></b>
+<b><details><summary>12. 你能描述一下渐进增强和优雅降级之间的不同吗?</summary></b>
 
 答案：
 
@@ -324,15 +325,15 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>18. div+css 的布局较 table 布局有什么优点？</summary></b>
+<b><details><summary>13. div+css 的布局较 table 布局有什么优点？</summary></b>
 
 答案：分离 方便改版 快清晰简洁 seo
 
-1.改版的时候更方便 只要改 css 文件。
+1.页面加载速度更快、结构化清晰、显示简洁。
 
-2.页面加载速度更快、结构化清晰、页面显示简洁。
+2.表现与结构相分离。
 
-3.表现与结构相分离。
+3.1.改版的时候更方便 只要改 css 文件。
 
 4.易于优化（seo）搜索引擎更友好，排名更容易靠前。
 
@@ -341,7 +342,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>22. html 常见兼容性问题？</summary></b>
+<b><details><summary>14. html 常见兼容性问题？</summary></b>
 
 答案：
 
@@ -378,7 +379,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>42.img 上 title 与 alt</summary></b>
+<b><details><summary>15.img 上 title 与 alt</summary></b>
 
 答案：title 指图片的信息、alt 指图片不显示时显示的文字
 
