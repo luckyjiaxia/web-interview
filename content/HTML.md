@@ -95,11 +95,9 @@ DOCTYPE是document type (文档类型) 的缩写。`<!DOCTYPE>` 声明位于文�
 
 </details>
 
-<b><details><summary>31.HTML5 为什么只需要写 `<!DOCTYPE HTML>`？</summary></b>
+<b><details><summary>4.HTML5 为什么只需要写 `<!DOCTYPE HTML>`？</summary></b>
 
 答案：HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SGML。而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为。其中，SGML 是标准通用标记语言,简单的说，就是比 HTML,XML 更老的标准，这两者都是由 SGML 发展而来的。BUT，HTML5 不是的。
-
-`<!DOCTYPE>`声明位于位于 HTML 文档中的第一行，处于 `<html>` 标签之前。作用：告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE 不存在或格式不正确会导致文档以怪异模式呈现。
 
 [参与互动](https://github.com/yisainan/web-interview/issues/52)
 
