@@ -744,6 +744,15 @@ SVG
 </details>
 
 
+<b><details><summary>31.HTML5 Canvas 元素有什么用？</summary></b>
+
+答案：Canvas 元素用于在网页上绘制图形，该元素标签强大之处在于可以直接在 HTML 上进行图形操作。
+
+[参与互动](https://github.com/yisainan/web-interview/issues/57)
+
+</details>
+
+
 <b><details><summary>32.meta viewport 原理是什么？</summary></b>
 
 答案：
@@ -775,7 +784,7 @@ Viewport ：字面意思为视图窗口，在移动 web 开发中使用。表示
 </details>
 
 
-<b><details><summary>34.HTML5 引入什么新的表单属性？</summary></b>
+<b><details><summary>33.HTML5 引入什么新的表单属性？</summary></b>
 
 答案：Datalist datetime output keygen date month week time number range emailurl
 
@@ -784,7 +793,7 @@ Viewport ：字面意思为视图窗口，在移动 web 开发中使用。表示
 </details>
 
 
-<b><details><summary>35.新的 HTML5 文档类型和字符集是？</summary></b>
+<b><details><summary>34.新的 HTML5 文档类型和字符集是？</summary></b>
 
 答案：
 
@@ -798,16 +807,9 @@ HTML5使用的编码<meta charset=”UTF-8”>
 </details>
 
 
-<b><details><summary>36.HTML5 Canvas 元素有什么用？</summary></b>
-
-答案：Canvas 元素用于在网页上绘制图形，该元素标签强大之处在于可以直接在 HTML 上进行图形操作。
-
-[参与互动](https://github.com/yisainan/web-interview/issues/57)
-
-</details>
 
 
-<b><details><summary>37.HTML5 存储类型有什么区别？</summary></b>
+<b><details><summary>35.HTML5 存储类型有什么区别？</summary></b>
 
 答案：Media API、Text Track API、Application Cache API、User Interaction、Data Transfer API、Command API、Constraint Validation API、History API
 
@@ -817,7 +819,7 @@ HTML5使用的编码<meta charset=”UTF-8”>
 
 
 
-<b><details><summary>40.什么是渐进式渲染（progressive rendering）？</summary></b>
+<b><details><summary>36.什么是渐进式渲染（progressive rendering）？</summary></b>
 
 答案：渐进式渲染是用于提高网页性能（尤其是提高用户感知的加载速度），以尽快呈现页面的技术。
 
@@ -836,7 +838,7 @@ HTML5使用的编码<meta charset=”UTF-8”>
 </details>
 
 
-<b><details><summary>41.DOM 和 BOM 有什么区别</summary></b>
+<b><details><summary>37.DOM 和 BOM 有什么区别</summary></b>
 
 答案：
 
@@ -860,7 +862,7 @@ window 对象既为 javascript 访问浏览器提供 API，同时在 ECMAScript 
 
 
 
-<b><details><summary>44.DOM Tree是如何构建的？</summary></b>
+<b><details><summary>38.DOM Tree是如何构建的？</summary></b>
 
 答案：
 
@@ -875,7 +877,7 @@ HTML 解释器的工作就是将网络或者本地磁盘获取的 HTML 网页和
 </details>
 
 
-<b><details><summary>38.iframe 的作用</summary></b>
+<b><details><summary>39.iframe 的作用</summary></b>
 
 答案：iframe 是用来在网页中插入第三方页面，早期的页面使用 iframe 主要是用于导航栏这种很多页面都相同的部分，这样在切换页面的时候避免重复下载。
 
@@ -895,7 +897,7 @@ HTML 解释器的工作就是将网络或者本地磁盘获取的 HTML 网页和
 </details>
 
 
-<b><details><summary>43.一个iframe，内嵌了一个A页面，iframe的宽高不停变化，如何让A页面的宽高实时自适应这个iframe的宽高大小。请说出至少3种方法，越难越好</summary></b>
+<b><details><summary>40.一个iframe，内嵌了一个A页面，iframe的宽高不停变化，如何让A页面的宽高实时自适应这个iframe的宽高大小。请说出至少3种方法，越难越好</summary></b>
 
 答案：
 
@@ -906,7 +908,7 @@ HTML 解释器的工作就是将网络或者本地磁盘获取的 HTML 网页和
 </details>
 
 
-<b><details><summary>33.对 web 标准、可用性、可访问性的理解</summary></b>
+<b><details><summary>41.对 web 标准、可用性、可访问性的理解</summary></b>
 
 答案：
 
@@ -921,14 +923,14 @@ HTML 解释器的工作就是将网络或者本地磁盘获取的 HTML 网页和
 </details>
 
 
-<b><details><summary>45.100*100的 canvas 占多少内存？</summary></b>
+<b><details><summary>42.100*100的 canvas 占多少内存？</summary></b>
 
 答案：[参考](https://www.jianshu.com/p/27dd0e802809)
 
 </details>
 
 
-<b><details><summary>46.`<noscript>`标签的作用</summary></b>
+<b><details><summary>43.`<noscript>`标签的作用</summary></b>
 
 答案：noscript 元素用来定义在脚本未被执行时的替代内容（文本）。
 
