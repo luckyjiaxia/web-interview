@@ -386,7 +386,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>39.为什么最好把 CSS 的`<link>`标签放在`<head></head>`之间？为什么最好把 JS 的`<script>`标签恰好放在`</body>`之前，有例外情况吗？</summary></b>
+<b><details><summary>15.为什么最好把 CSS 的`<link>`标签放在`<head></head>`之间？为什么最好把 JS 的`<script>`标签恰好放在`</body>`之前，有例外情况吗？</summary></b>
 
 答案：
 
@@ -405,7 +405,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>9.Label 的作用是什么？是怎么用的？</summary></b>
+<b><details><summary>16.Label 的作用是什么？是怎么用的？</summary></b>
 
 答案：label 标签来定义表单控制间的关系,**当用户选择该标签时，浏览器会自动将焦点转到和标签相关的表单控件上**。
 
@@ -424,7 +424,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>10.HTML5 的 form 如何关闭自动完成功能？</summary></b>
+<b><details><summary>17.HTML5 的 form 如何关闭自动完成功能？</summary></b>
 
 答案：将不想要自动完成的 `form` 或 `input` 设置为 `autocomplete=off`
 
@@ -435,7 +435,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>11.请描述下 SEO 中的 TDK？</summary></b>
+<b><details><summary>18.请描述下 SEO 中的 TDK？</summary></b>
 
 答案：在 SEO 中，所谓的 TDK 其实就是 title、description、keywords 这三个标签，title 标题标签，description 描述标签，keywords 关键词标签
 
@@ -444,7 +444,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
-<b><details><summary>13.为什么用多个域名存储网站资源更有效？</summary></b>
+<b><details><summary>19.为什么用多个域名存储网站资源更有效？</summary></b>
 
 答案：
 
@@ -459,6 +459,7 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 5、防止不必要的安全问题
 
 [参与互动](https://github.com/yisainan/web-interview/issues/16)
+[参考](https://blog.csdn.net/weixin_42554191/article/details/109559973)
 
 </details>
 
