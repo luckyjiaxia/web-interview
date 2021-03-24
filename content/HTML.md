@@ -106,7 +106,7 @@ DOCTYPE是document type (文档类型) 的缩写。`<!DOCTYPE>` 声明位于文�
 </details>
 
 
-<b><details><summary>4.对于 WEB 标准以及 W3C 的理解与认识问题</summary></b>
+<b><details><summary>4.对于 WEB 标准以及 W3C 的理解与认识</summary></b>
 
 答案：
 
@@ -132,7 +132,10 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 
 3）不需要变动页面内容，便可提供打印版本而不需要复制内容，提高网站易用性。
 
+标签闭合、标签小写、不乱嵌套、提高搜索机器人搜索几率、使用外链 css 和 js 脚本、结构行为表现的分离、文件下载与页面速度更快、内容能被更多的用户所访问、内容能被更广泛的设备所访问、更少的代码和组件，容易维护、改版方便，不需要变动页面内容、提供打印版本而不需要复制内容、提高网站易用性。
+
 [参与互动](https://github.com/yisainan/web-interview/issues/12)
+[参与互动](https://github.com/yisainan/web-interview/issues/44)
 
 </details>
 
@@ -156,6 +159,7 @@ W3C 对 web 标准提出了规范化的要求，也就是在实际编程中的�
 [参与互动](https://github.com/yisainan/web-interview/issues/14)
 
 </details>
+
 
 <b><details><summary>14. 网页验证码是干嘛的，是为了解决什么安全问题？</summary></b>
 
@@ -322,6 +326,86 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 </details>
 
 
+<b><details><summary>18. div+css 的布局较 table 布局有什么优点？</summary></b>
+
+答案：分离 方便改版 快清晰简洁 seo
+
+1.改版的时候更方便 只要改 css 文件。
+
+2.页面加载速度更快、结构化清晰、页面显示简洁。
+
+3.表现与结构相分离。
+
+4.易于优化（seo）搜索引擎更友好，排名更容易靠前。
+
+[参与互动](https://github.com/yisainan/web-interview/issues/19)
+
+</details>
+
+
+<b><details><summary>22. html 常见兼容性问题？</summary></b>
+
+答案：
+
+1.双边距 BUG float 引起的，解决办法: 使用 display解决
+
+2.3 像素问题 使用 float 引起的，解决办法: 使用 dislpay:inline -3px
+
+3.超链接 hover 点击后失效，解决办法: 使用正确的书写顺序 link visited hover active
+
+4.Ie z-index 问题，解决办法: 给父级添加 position:relative
+
+5.Png 透明 ，解决办法: 使用 js 代码
+
+6.Min-height 最小高度 ，解决办法: ！Important 解决
+
+7.select 在 ie6 下遮盖，解决办法: 使用 iframe 嵌套
+
+8.为什么没有办法定义 1px 左右的宽度容器，解决办法: （IE6 默认的行高造成的，使用 over:hidden,zoom:0.08 line-height:1px）
+
+9.IE5-8 不支持 opacity，解决办法：
+
+```css
+.opacity {
+  opacity: 0.4;
+  filter: alpha(opacity=60); /_ for IE5-7 _/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /_ for IE 8_/
+}
+```
+
+10.IE6 不支持 PNG 透明背景，解决办法: IE6 下使用 gif 图片
+
+[参与互动](https://github.com/yisainan/web-interview/issues/43)
+
+</details>
+
+
+<b><details><summary>42.img 上 title 与 alt</summary></b>
+
+答案：title 指图片的信息、alt 指图片不显示时显示的文字
+
+</details>
+
+
+<b><details><summary>39.为什么最好把 CSS 的`<link>`标签放在`<head></head>`之间？为什么最好把 JS 的`<script>`标签恰好放在`</body>`之前，有例外情况吗？</summary></b>
+
+答案：
+
+**把`<link>`放在`<head>`中**
+
+把`<link>`标签放在`<head></head>`之间是规范要求的内容。此外，这种做法可以让页面逐步呈现，提高了用户体验。将样式表放在文档底部附近，会使许多浏览器（包括 Internet Explorer）不能逐步呈现页面。一些浏览器会阻止渲染，以避免在页面样式发生变化时，重新绘制页面中的元素。这种做法可以防止呈现给用户空白的页面或没有样式的内容。
+
+**把`<script>`标签恰好放在`</body>`之前**
+
+脚本在下载和执行期间会阻止 HTML 解析。把`<script>`标签放在底部，保证 HTML 首先完成解析，将页面尽早呈现给用户。
+
+例外情况是当你的脚本里包含`document.write()`时。但是现在，`document.write()`不推荐使用。同时，将`<script>`标签放在底部，意味着浏览器不能开始下载脚本，直到整个文档（document）被解析。也许，对此比较好的做法是，`<script>`使用`defer`属性，放在`<head>`中。
+
+[参与互动](https://github.com/yisainan/web-interview/issues/60)
+
+</details>
+
+
 <b><details><summary>9.Label 的作用是什么？是怎么用的？</summary></b>
 
 答案：label 标签来定义表单控制间的关系,**当用户选择该标签时，浏览器会自动将焦点转到和标签相关的表单控件上**。
@@ -359,7 +443,6 @@ B.strong这个标签意思是加强字符的语气，表示该文本比较重要
 [参与互动](https://github.com/yisainan/web-interview/issues/8)
 
 </details>
-
 
 
 <b><details><summary>13.为什么用多个域名存储网站资源更有效？</summary></b>
@@ -427,76 +510,6 @@ document.addEventListener("visibilitychange", function() {
 优点：将智能数据添加到网页上，让网站内容在搜索引擎结果界面可以显示额外的提示。（应用范例：豆瓣，有兴趣自行 google）
 
 [参与互动](https://github.com/yisainan/web-interview/issues/42)
-
-</details>
-
-
-<b><details><summary>18. div+css 的布局较 table 布局有什么优点？</summary></b>
-
-答案：分离 方便改版 快清晰简洁 seo
-
-1.改版的时候更方便 只要改 css 文件。
-
-2.页面加载速度更快、结构化清晰、页面显示简洁。
-
-3.表现与结构相分离。
-
-4.易于优化（seo）搜索引擎更友好，排名更容易靠前。
-
-[参与互动](https://github.com/yisainan/web-interview/issues/19)
-
-</details>
-
-
-<b><details><summary>22. html 常见兼容性问题？</summary></b>
-
-答案：
-
-1.双边距 BUG float 引起的，解决办法: 使用 display解决
-
-2.3 像素问题 使用 float 引起的，解决办法: 使用 dislpay:inline -3px
-
-3.超链接 hover 点击后失效，解决办法: 使用正确的书写顺序 link visited hover active
-
-4.Ie z-index 问题，解决办法: 给父级添加 position:relative
-
-5.Png 透明 ，解决办法: 使用 js 代码
-
-6.Min-height 最小高度 ，解决办法: ！Important 解决
-
-7.select 在 ie6 下遮盖，解决办法: 使用 iframe 嵌套
-
-8.为什么没有办法定义 1px 左右的宽度容器，解决办法: （IE6 默认的行高造成的，使用 over:hidden,zoom:0.08 line-height:1px）
-
-9.IE5-8 不支持 opacity，解决办法：
-
-```css
-.opacity {
-  opacity: 0.4;
-  filter: alpha(opacity=60); /_ for IE5-7 _/
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /_ for IE 8_/
-}
-```
-
-10.IE6 不支持 PNG 透明背景，解决办法: IE6 下使用 gif 图片
-
-[参与互动](https://github.com/yisainan/web-interview/issues/43)
-
-</details>
-
-
-<b><details><summary>23. 对 WEB 标准以及 W3C 的理解与认识</summary></b>
-
-答案：标签闭合、标签小写、不乱嵌套、提高搜索机器人搜索几率、使用外 链 css 和 js 脚本、结构行为表现的分离、文件下载与页面速度更快、内容能被更多的用户所访问、内容能被更广泛的设备所访问、更少的代码和组件，容易维 护、改版方便，不需要变动页面内容、提供打印版本而不需要复制内容、提高网站易用性。
-
-[参与互动](https://github.com/yisainan/web-interview/issues/44)
-
-</details>
-
-
-<b><details><summary>42.img 上 title 与 alt</summary></b>
-
-答案：title 指图片的信息、alt 指图片不显示时显示的文字
 
 </details>
 
@@ -802,24 +815,6 @@ HTML5使用的编码<meta charset=”UTF-8”>
 
 </details>
 
-
-<b><details><summary>39.为什么最好把 CSS 的`<link>`标签放在`<head></head>`之间？为什么最好把 JS 的`<script>`标签恰好放在`</body>`之前，有例外情况吗？</summary></b>
-
-答案：
-
-**把`<link>`放在`<head>`中**
-
-把`<link>`标签放在`<head></head>`之间是规范要求的内容。此外，这种做法可以让页面逐步呈现，提高了用户体验。将样式表放在文档底部附近，会使许多浏览器（包括 Internet Explorer）不能逐步呈现页面。一些浏览器会阻止渲染，以避免在页面样式发生变化时，重新绘制页面中的元素。这种做法可以防止呈现给用户空白的页面或没有样式的内容。
-
-**把`<script>`标签恰好放在`</body>`之前**
-
-脚本在下载和执行期间会阻止 HTML 解析。把`<script>`标签放在底部，保证 HTML 首先完成解析，将页面尽早呈现给用户。
-
-例外情况是当你的脚本里包含`document.write()`时。但是现在，`document.write()`不推荐使用。同时，将`<script>`标签放在底部，意味着浏览器不能开始下载脚本，直到整个文档（document）被解析。也许，对此比较好的做法是，`<script>`使用`defer`属性，放在`<head>`中。
-
-[参与互动](https://github.com/yisainan/web-interview/issues/60)
-
-</details>
 
 
 <b><details><summary>40.什么是渐进式渲染（progressive rendering）？</summary></b>
