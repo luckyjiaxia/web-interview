@@ -139,57 +139,57 @@ CSS 伪元素是添加到选择器的关键字，去选择元素的特定部分�
 
 答案：
 
+1.id选择器（ # myid）
 
-        1.id选择器（ # myid）
+2.类选择器（.myclassname）
 
-        2.类选择器（.myclassname）
-
-        3.标签选择器（div, h1, p）
+3.标签选择器（div, h1, p）
         
-        4.属性选择器（a[rel = "external"]）
+4.属性选择器（a[rel = "external"]）
 
-        5.通配符选择器（ * ）
+5.通配符选择器（ * ）
 
-        6.伪类选择器（a: hover, li: nth - child）
+6.伪类选择器（a: hover, li: nth - child）
         
-        7.后代选择器（li a）
+7.后代选择器（li a）
 
-        8.相邻选择器（h1 + p）
+8.相邻选择器（h1 + p）
 
-        9.子选择器（ul < li）
+9.子选择器（ul < li）
         
 
-    *   可继承：字体系列属性：font-size、font-family，文本系列属性：color、text-align、line-height, 元素可见性：visibility，表格布局属性：table-layout，列表属性：list-style;
+*   可继承：字体系列属性：font-size、font-family，文本系列属性：color、text-align、line-height, 元素可见性：visibility，表格布局属性：table-layout，列表属性：list-style;
 
-    *   不可继承 ：border padding margin width height ;
+*   不可继承 ：border padding margin width height ;
 
 优先级：
 
-        样式的引用方式对css优先级的影响:
+样式的引用方式对css优先级的影响:
         
-        外部样式 < 内部样式 < 内联样式，但是有!important的样式除外。
+         外部样式 < 内部样式 < 内联样式，但是有!important的样式除外。
         （
         <!-- 内联样式 -->
         <span style="color:red;">Hello</span>
 
         <style type="text/css">
-             /* 内部样式 */
-             h3{color:green;}
-         </style>
+        /* 内部样式 */
+        h3{color:green;}
+        </style>
 
         <!-- 外部样式 style.css -->
         <link rel="stylesheet" type="text/css" href="style.css"/>
         ）
         
-        选择器对css样式优先级的影响:
+选择器对css样式优先级的影响:
 
-       !important >  id > class= 属性=伪类 > tag  
+        !important >  id > class= 属性=伪类 > tag  
        
        
-       如果同一个元素在没有其他样式的作用影响下，其Class定义了多个并以空格分开，其优先级顺序为：
+ 如果同一个元素在没有其他样式的作用影响下，其Class定义了多个并以空格分开，其优先级顺序为：
 
-        一个元素同时应用多个class，后定义的优先（即近者优先），属性后插有 !important 的属性拥有最高优先级
+一个元素同时应用多个class，后定义的优先（即近者优先），属性后插有 !important 的属性拥有最高优先级
 [参考](https://www.jianshu.com/p/f4df99cc662e)；[参考](https://blog.csdn.net/judyge/article/details/51788691)
+
 
 CSS3新增伪类举例：
 
