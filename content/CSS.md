@@ -144,13 +144,13 @@ CSS 伪元素是添加到选择器的关键字，去选择元素的特定部分�
 2.类选择器（.myclassname）
 
 3.标签选择器（div, h1, p）
-        
+  
 4.属性选择器（a[rel = "external"]）
 
 5.通配符选择器（ * ）
 
 6.伪类选择器（a: hover, li: nth - child）
-        
+     
 7.后代选择器（li a）
 
 8.相邻选择器（h1 + p）
@@ -187,23 +187,24 @@ CSS 伪元素是添加到选择器的关键字，去选择元素的特定部分�
        
  如果同一个元素在没有其他样式的作用影响下，其Class定义了多个并以空格分开，其优先级顺序为：
 
-一个元素同时应用多个class，后定义的优先（即近者优先），属性后插有 !important 的属性拥有最高优先级
+        一个元素同时应用多个class，后定义的优先（即近者优先），属性后插有 !important 的属性拥有最高优先级
+        
 [参考](https://www.jianshu.com/p/f4df99cc662e)；[参考](https://blog.csdn.net/judyge/article/details/51788691)
 
 
 CSS3新增伪类举例：
 
-    p:first-of-type 选择属于其父元素的首个 <p> 元素的每个 <p> 元素。
+    p:first-of-type 选择属于其父元素的首个<p>元素的每个<p>元素。
 
-    p:last-of-type  选择属于其父元素的最后 <p> 元素的每个 <p> 元素。
+    p:last-of-type  选择属于其父元素的最后<p>元素的每个<p>元素。
 
-    p:only-of-type  选择属于其父元素唯一的 <p> 元素的每个 <p> 元素。
+    p:only-of-type  选择属于其父元素唯一的<p>元素的每个<p>元素。
 
-    p:only-child    选择属于其父元素的唯一子元素的每个 <p> 元素。
+    p:only-child    选择属于其父元素的唯一子元素的每个<p>元素。
 
-    p:nth-child(2)  选择属于其父元素的第二个子元素的每个 <p> 元素。
+    p:nth-child(2)  选择属于其父元素的第二个子元素的每个<p>元素。
 
-    :enabled、:disabled 控制表单控件的禁用状态。
+    :enabled:disabled 控制表单控件的禁用状态。
 
     :checked，单选框或复选框被选中。
 
