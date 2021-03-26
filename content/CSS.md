@@ -112,14 +112,14 @@ b 外部标签：只能将浮动盒子的影响清除，但是不会撑开盒子
 <b><details><summary>6. 伪元素和伪类的区别？</summary></b>
 
 答案：
+伪类的效果可以通过添加实际的类来实现
+伪元素的效果可以通过添加实际的元素来实现
+所以它们的本质区别就是是否抽象创造了新元素
 
-1、伪元素使用 2 个冒号，常见的有：::before，::after，::first-line，::first-letter，::selection、::placeholder 等；
+伪类只能使用“：”
+而伪元素既可以使用“:”，也可以使用“::”，常见的有：:hover，:link，:active，:target，:not()，:focus等。
+因为伪类是类似于添加类所以可以是多个，而伪元素在一个选择器中只能出现一次，并且只能出现在末尾，常见的有：::before，::after，::first-line，::first-letter，::selection、::placeholder 等；
 
-      伪类使用1个冒号，常见的有：:hover，:link，:active，:target，:not()，:focus等。
-
-2、伪元素添加了一个页面中没有的元素（只是从视觉效果上添加了，不是在文档树中添加）；
-
-      伪类是给页面中已经存在的元素添加一个类。
 
 解析：
 
